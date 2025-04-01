@@ -10,6 +10,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.println("Digite um número: ");
         num = input.nextInt();
+        input.close();
 
         ArrayList<Integer> lista = calcularDivisores(num);
         System.out.println("Divisores de " + num + ":");
